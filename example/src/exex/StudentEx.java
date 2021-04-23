@@ -22,7 +22,7 @@ public class StudentEx {
 			
 		}
 			
-		System.out.printf("등록된 학생의 수 : %d",map.size());
+		System.out.printf("등록된 학생의 수 : %d\n",map.size());
 		
 		for(Map.Entry<String,Student> entry : map.entrySet()) {
 			
